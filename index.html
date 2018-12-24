@@ -98,19 +98,19 @@
 							<article class="post">
 								<header>
 									<div class="title">
-										<h2><a href="single.html">Magna sed adipiscing</a></h2>
-										<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
+										<h2><a href="articles/pseudo_quadtree_structure.html">Pseudo-Quadtree Structure</a></h2>
+										<p>Minsik Kim, Minyong Sung, Minwoo Kim, and Won Woo Ro, "Exploiting Pseudo-Quadtree Structure for Accelerating HEVC Spatial Resolution Downscaling Transcoder," in TMM</p>
 									</div>
 									<div class="meta">
-										<time class="published" datetime="2015-11-01">November 1, 2015</time>
-										<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
+										<time class="published" datetime="2018-09-01">September 01, 2018</time>
+										<a href="#" class="author"><span class="name">Minsik Kim</span><img src="images/avatar.jpg" alt="" /></a>
 									</div>
 								</header>
-								<a href="single.html" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+								<a href="articles/pseudo_quadtree_structure.html" class="image featured"><img src="articles/pseudo_quadtree_structure.png" alt="" style="width: 50%; hight: auto; margin-left: auto; margin-right: auto; display: block;" /></a>
+								<p>In this paper, a novel method to accelerate the spatial resolution downscaling transcoding operation for high efficiency video coding (HEVC) is proposed. The proposed transcoder first extracts the information about the coding unit (CU) structure during the decoding process and analyzes it to construct a pseudo-quadtree of the target resolution. By utilizing the constructed pseudo-quadtree, the encoder process is accelerated by searching only the optimal depth in the quadtree structure. To evaluate the performance of the proposed transcoding method, its transcoding time and bitrate loss are measured and compared with those of the HEVC reference encoder and decoder. Also, a comparison with state-of-the-art fastCUsize decision methods and spatial resolution downscaling transcoding methods for HEVC is presented. The proposed method achieves an average speedup of 1.65 with an average bitrate loss of 2.06%.</p>
 								<footer>
 									<ul class="actions">
-										<li><a href="single.html" class="button large">Continue Reading</a></li>
+										<li><a href="articles/pseudo_quadtree_structure.html" class="button large">Continue Reading</a></li>
 									</ul>
 									<ul class="stats">
 										<li><a href="#">General</a></li>
@@ -119,6 +119,33 @@
 									</ul>
 								</footer>
 							</article>
+
+							<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="articles/separable_median_filter.html">Separable Median Filter</a></h2>
+										<p>Minsik Kim, Deokho Kim, Minyong Sung, and Won Woo Ro, "An Accelerated Separable Median Filter with Sorting Networks," in ICIP 2015</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2015-09-28">September 28, 2015</time>
+										<a href="#" class="author"><span class="name">Minsik Kim</span><img src="images/avatar.jpg" alt="" /></a>
+									</div>
+								</header>
+								<a href="articles/separable_median_filter.html" class="image featured"><img src="articles/separable_median_filter.png" alt="" /></a>
+								<p>Since the computer vision technologies are used to extract features from the edges of images, the median filter is frequently used as a pre-processing operation to improve the quality of feature objects. However, the median filter algorithms still have the limitation on integrating with the mobile systems due to the large computation overhead. Since the median filter accounts for a large proportion of total computation, this paper proposes a separable median filter to resolve the limitation. The proposed separable median filter is implemented with the sorting network, and reuses the data sorted at neighbor pixels, reducing duplicated comparisons.</p>
+								<footer>
+									<ul class="actions">
+										<li><a href="articles/separable_median_filter.html" class="button large">Continue Reading</a></li>
+									</ul>
+									<ul class="stats">
+										<li><a href="#">General</a></li>
+										<li><a href="#" class="icon fa-heart">28</a></li>
+										<li><a href="#" class="icon fa-comment">128</a></li>
+									</ul>
+								</footer>
+							</article>
+
 
 						
 						<!-- Post -->
@@ -455,98 +482,40 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							</section>
 
 						<!-- Mini Posts -->
-							<section>
-								<div class="mini-posts">
+						<!-- 	<section>
+								<div class="mini-posts">-->
 
 									<!-- Mini Post -->
-										<article class="mini-post">
+									<!-- 	<article class="mini-post">
 											<header>
-												<h3><a href="single.html">Vitae sed condimentum</a></h3>
-												<time class="published" datetime="2015-10-20">October 20, 2015</time>
+												<h3><a href="articles/separable_median_filter.html">Separable Median Filter</a></h3>
+												<time class="published" datetime="2015-09-28">September 28, 2015</time>
 												<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
 											</header>
-											<a href="single.html" class="image"><img src="images/pic04.jpg" alt="" /></a>
+											<a href="articles/separable_median_filter.html" class="image"><img src="articles/separable_median_filter.png" alt="" /></a>
 										</article>
-
-									<!-- Mini Post -->
-										<article class="mini-post">
-											<header>
-												<h3><a href="single.html">Rutrum neque accumsan</a></h3>
-												<time class="published" datetime="2015-10-19">October 19, 2015</time>
-												<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
-											</header>
-											<a href="single.html" class="image"><img src="images/pic05.jpg" alt="" /></a>
-										</article>
-
-									<!-- Mini Post -->
-										<article class="mini-post">
-											<header>
-												<h3><a href="single.html">Odio congue mattis</a></h3>
-												<time class="published" datetime="2015-10-18">October 18, 2015</time>
-												<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
-											</header>
-											<a href="single.html" class="image"><img src="images/pic06.jpg" alt="" /></a>
-										</article>
-
-									<!-- Mini Post -->
-										<article class="mini-post">
-											<header>
-												<h3><a href="single.html">Enim nisl veroeros</a></h3>
-												<time class="published" datetime="2015-10-17">October 17, 2015</time>
-												<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
-											</header>
-											<a href="single.html" class="image"><img src="images/pic07.jpg" alt="" /></a>
-										</article>
-
 								</div>
-							</section>
-
+							</section> -->
+										
 						<!-- Posts List -->
 							<section>
 								<ul class="posts">
 									<li>
 										<article>
 											<header>
-												<h3><a href="single.html">Lorem ipsum fermentum ut nisl vitae</a></h3>
-												<time class="published" datetime="2015-10-20">October 20, 2015</time>
+												<h3><a href="articles/separable_median_filter.html">Separable Median Filter</a></h3>
+												<time class="published" datetime="2015-09-28">September 28, 2015</time>
 											</header>
-											<a href="single.html" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<a href="articles/separable_median_filter.html" class="image"><img src="images/pic08.jpg" alt="" /></a>
 										</article>
 									</li>
 									<li>
 										<article>
 											<header>
-												<h3><a href="single.html">Convallis maximus nisl mattis nunc id lorem</a></h3>
-												<time class="published" datetime="2015-10-15">October 15, 2015</time>
+												<h3><a href="articles/pseudo_quadtree_structure.html">Pseudo-Quadtree Sturcture</a></h3>
+												<time class="published" datetime="2018-09-01">September 01, 2018</time>
 											</header>
-											<a href="single.html" class="image"><img src="images/pic09.jpg" alt="" /></a>
-										</article>
-									</li>
-									<li>
-										<article>
-											<header>
-												<h3><a href="single.html">Euismod amet placerat vivamus porttitor</a></h3>
-												<time class="published" datetime="2015-10-10">October 10, 2015</time>
-											</header>
-											<a href="single.html" class="image"><img src="images/pic10.jpg" alt="" /></a>
-										</article>
-									</li>
-									<li>
-										<article>
-											<header>
-												<h3><a href="single.html">Magna enim accumsan tortor cursus ultricies</a></h3>
-												<time class="published" datetime="2015-10-08">October 8, 2015</time>
-											</header>
-											<a href="single.html" class="image"><img src="images/pic11.jpg" alt="" /></a>
-										</article>
-									</li>
-									<li>
-										<article>
-											<header>
-												<h3><a href="single.html">Congue ullam corper lorem ipsum dolor</a></h3>
-												<time class="published" datetime="2015-10-06">October 7, 2015</time>
-											</header>
-											<a href="single.html" class="image"><img src="images/pic12.jpg" alt="" /></a>
+											<a href="articles/pseudo_quadtree_structure.html" class="image"><img src="images/pic09.jpg" alt="" /></a>
 										</article>
 									</li>
 								</ul>
@@ -555,9 +524,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<!-- About -->
 							<section class="blurb">
 								<h2>About</h2>
-								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod amet placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at phasellus sed ultricies.</p>
+								<p>Minsik Kim is an enginner in the Division of National Supercomputing of the Korea Institute of Science and Technology Information (KISTI). Mr. Kim will be received the Ph.D. degree in Electrical and Electronic Engineering from Yonsei University advised by Prof. Won Woo Ro. His research interests include neural network optimization on GPUs, computer architecture, and high-performance computing.</p>
 								<ul class="actions">
-									<li><a href="#" class="button">Learn More</a></li>
+									<li><a href="about_me.html" class="button">Learn More</a></li>
 								</ul>
 							</section>
 
